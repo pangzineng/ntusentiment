@@ -11,5 +11,22 @@
 		<artifactId>mysql-connector-java</artifactId>
 		<version>5.1.30</version>
 	</dependency>
-  </dependencies>
+  
+    <!-- NLP -->
+	<dependency>
+	    <groupId>edu.stanford.nlp</groupId>
+	    <artifactId>stanford-corenlp</artifactId>
+	    <version>3.3.1</version>
+	</dependency>
+	<dependency>
+	    <groupId>edu.stanford.nlp</groupId>
+	    <artifactId>stanford-corenlp</artifactId>
+	    <version>3.3.1</version>
+	    <classifier>models</classifier>
+	</dependency>
+	
+	<!-- Data Mining -->
+	
+</dependencies>  
+  
 </project>
